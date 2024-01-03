@@ -33,11 +33,8 @@ class MyApp extends StatelessWidget {
 
    @override
    Widget build(BuildContext context) {
-     var screenWidth =MediaQuery
-         .of(context).size.width;
-     var screenHeight
-     =MediaQuery
-         .of(context).size.width;
+     var screenWidth =MediaQuery.of(context).size.width;
+     var screenHeight =MediaQuery.of(context).size.width;
      return Scaffold(
        body: screenWidth>=467 ? tabletHomePage(screenWidth,screenHeight): phoneHomePage(screenWidth,screenHeight)
      );
@@ -122,7 +119,7 @@ class MyApp extends StatelessWidget {
              Container(
                width: 50,
                height: 50,
-               color: Colors.indigo,
+               color: Colors.yellowAccent,
              ),
              SizedBox(height: 20,),
              Container(
@@ -144,7 +141,7 @@ class MyApp extends StatelessWidget {
              ),
              SizedBox(height: 20,),
              Container(
-               width: 50,
+               width: 500,
                height: 50,
                color: Colors.orangeAccent,
              ),
@@ -155,7 +152,8 @@ class MyApp extends StatelessWidget {
                color: Colors.lightBlue,
              ),
            ],
-         )
+         ),
+
        ],
      );
  }
