@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                  Container(
                   width: 55,
                    height: 50,
-                   color: Colors.yellow,
+                   color: Colors.black26,
                  ),
                  SizedBox(height: 20,),
                  Container(
@@ -141,7 +141,7 @@ class MyApp extends StatelessWidget {
              ),
              SizedBox(height: 20,),
              Container(
-               width: 500,
+               width: 50,
                height: 50,
                color: Colors.orangeAccent,
              ),
